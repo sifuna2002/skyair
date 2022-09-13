@@ -18,7 +18,7 @@ function Banner() {
         flexDirection: 'row',
         alignItems: 'center',
     }}>
-            <AppsIcon />
+            <AppsIcon style={{cursor: 'pointer'}} />
             <div style={{
         display: 'flex',
         flexDirection: 'row',
