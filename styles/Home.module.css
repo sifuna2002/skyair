@@ -3,13 +3,12 @@
 
 .main {
   min-height: 100vh;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
+  overflow: hidden;
+  -ms-overflow-style: none;
 }
-
+.main::-webkit-scrollbar {
+  display: none;
+}
 
 .title a {
   color: #0070f3;

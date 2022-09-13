@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
+      <main className={styles.main}>
         <Banner />
         <Container maxWidth="lg">
           <Landing />
