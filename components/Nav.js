@@ -40,7 +40,7 @@ function Nav() {
         flexDirection: 'row',
         alignItems: 'center',
     }}>
-                    <Button variant="contained" style={{borderRadius:20}}>Contact</Button>
+                    <Button variant="contained" style={{borderRadius:20,textTransform:'capitalize'}}>Contact</Button>
                 </div>
             </div>
         </div>
