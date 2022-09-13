@@ -62,10 +62,9 @@ export default function Login() {
                 </div>
             </Fligh>
             <Footer>
-                <span><p>legal notice | &copy; 2022 skyair</p></span>
+                <span><p style={{cursor: 'pointer'}}>legal notice | &copy; 2022 skyair</p></span>
             </Footer>
         </Container>
-    
   )
 }
 const Container=styled.div`
@@ -83,8 +82,6 @@ const LoginContainer=styled.div`
     width:450px;
     margin-top:10%;
     margin-left:15%;
-    
-
 `
 const FormContainer=styled.div`
     position: relative;
